@@ -1,11 +1,11 @@
 import './App.css';
-import Example from './components/Example';
+import SpecificFirstAppComponent from './components/SpecificFirstAppComponent';
 
 function App() {
   return (
     <div>
       <h1>App 1</h1>
-      <Example />
+      <SpecificFirstAppComponent />
     </div>
   );
 }
