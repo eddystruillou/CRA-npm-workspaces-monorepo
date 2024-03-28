@@ -2,6 +2,10 @@
     "name": "npm_workspaces",
     "private": "true",
     "workspaces": ["./packages/*"],
+    "scripts": {
+        "start:app1": "npm run start --workspace=@backoffice/app1",
+        "start:app2": "npm run start --workspace=@backoffice/app2"
+    },
     "dependencies": {
         "@testing-library/jest-dom": "^5.17.0",
         "@testing-library/react": "^13.4.0",
