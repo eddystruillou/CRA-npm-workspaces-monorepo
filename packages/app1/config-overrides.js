@@ -10,7 +10,7 @@ return Object.assign(
     babelInclude([
         /* transpile (converting to es5) code in src/ and shared component library */
         path.resolve("src"),
-        path.resolve("../@backoffice/common"),
+        path.resolve("../common"),
     ])
     )(config, env)
 );
