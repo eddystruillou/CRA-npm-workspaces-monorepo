@@ -1,5 +1,8 @@
 import React, { useState } from 'react';
-import { Button, say } from '@backoffice/common';
+import { SharedButton, say } from '@backoffice/common';
+import { Typography } from 'antd';
+
+const { Text } = Typography;
 
 const SpecificFirstAppComponent = () => {
   const [showMessage, toggleShowMessage] = useState(false);
@@ -7,9 +10,9 @@ const SpecificFirstAppComponent = () => {
     <section>
       <h1>Specific App 1 Component</h1>
       <hr />
-      Toggle message for App 1
+      <Text>Toggle message for App 1</Text>
       <br />
-      <Button onClickHandler={() => toggleShowMessage(!showMessage)}>Shared Button imported in App 1</Button>
+      <SharedButton onClickHandler={() => toggleShowMessage(!showMessage)}>Shared Button imported in App 1</SharedButton>
       <hr />
       {showMessage && say('Button clicked : Message from App 1 ')}
     </section>
