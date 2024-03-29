@@ -1,7 +1,9 @@
 {
     "name": "npm_workspaces",
     "private": "true",
-    "workspaces": ["./packages/*"],
+    "workspaces": [
+        "./packages/*"
+    ],
     "scripts": {
         "start:app1": "npm run start --workspace=@backoffice/app1",
         "start:app2": "npm run start --workspace=@backoffice/app2"
