@@ -11,7 +11,7 @@ const SpecificFirstAppComponent = () => {
       <br />
       <Button onClickHandler={() => toggleShowMessage(!showMessage)}>Shared Button imported in App 1</Button>
       <hr />
-      {showMessage && <p>Message for App 1</p>}
+      {showMessage && <p>Button clicked : Message from App 1</p>}
     </section>
   );
 }
