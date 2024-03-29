@@ -1,5 +1,5 @@
 import React from "react";
 
-export const Button = () => {
-    return <button>Sharded Button</button>;
+export const Button = ({ children, onClickHandler }) => {
+    return <button onClick={() => onClickHandler()}>{children}</button>;
 };
