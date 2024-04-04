@@ -9,6 +9,9 @@
     "test": "react-app-rewired test",
     "eject": "react-scripts eject"
   },
+  "dependencies": {
+    "math-helpers": "*"
+  },
   "eslintConfig": {
     "extends": [
       "react-app",
@@ -27,6 +30,7 @@
       "last 1 safari version"
     ]
   },
+  
   "devDependencies": {
     "customize-cra": "^1.0.0",
     "react-app-rewired": "^2.2.1"

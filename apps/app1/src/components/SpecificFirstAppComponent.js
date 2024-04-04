@@ -1,11 +1,17 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { SharedButton, say } from '@backoffice/common';
 import { Typography } from 'antd';
+import { add } from 'math-helpers';
 
 const { Text } = Typography;
 
 const SpecificFirstAppComponent = () => {
   const [showMessage, toggleShowMessage] = useState(false);
+
+  useEffect(() => {
+    console.log(add(1, 2));
+  }, []);
+
   return (
     <section>
       <h1>Specific App 1 Component</h1>
