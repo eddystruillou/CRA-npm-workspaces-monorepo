@@ -2,8 +2,8 @@
     "name": "npm_workspaces",
     "private": "true",
     "workspaces": [
-        "./apps/*",
-        "./packages/*"
+        "apps/*",
+        "packages/*"
     ],
     "scripts": {
         "start": "npm run start --workspace=app1",
