@@ -5,10 +5,8 @@
         "./packages/*"
     ],
     "scripts": {
-        "start:app1": "npm run start --workspace=@backoffice/app1",
-        "start:app2": "npm run start --workspace=@backoffice/app2",
-        "build:app1": "npm run build --workspace=@backoffice/app1",
-        "build:app2": "npm run build --workspace=@backoffice/app2"
+        "start": "npm run start --workspace=app1",
+        "build": "npm run build --workspace=app1"
     },
     "dependencies": {
         "@testing-library/jest-dom": "^5.17.0",
