@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { SharedButton, say } from '@backoffice/common';
 import { Typography } from 'antd';
 import { add } from 'math-helpers';
+import { Foo } from 'backoffice-components';
 
 const { Text } = Typography;
 
@@ -14,6 +15,7 @@ const SpecificFirstAppComponent = () => {
 
   return (
     <section>
+      <Foo />
       <h1>Specific App 1 Component</h1>
       <hr />
       <Text>Toggle message for App 1</Text>

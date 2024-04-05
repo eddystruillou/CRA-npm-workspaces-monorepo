@@ -12,7 +12,7 @@ export default defineConfig({
   plugins: [react()],
   build: {
     lib: {
-      entry: resolve(__dirname, "lib/main.js"),
+      entry: resolve("lib/main.js"),
       name: "library",
       fileName: "library",
     },
