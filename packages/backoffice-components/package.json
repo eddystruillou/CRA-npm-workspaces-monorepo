@@ -3,12 +3,12 @@
   "version": "0.1.0",
   "type": "module",
   "files": ["dist"],
-  "main": "./dist/library.umd.cjs",
-  "module": "./dist/library.js",
+  "main": "./dist/backoffice-components.umd.cjs",
+  "module": "./dist/backoffice-components.js",
   "exports": {
     ".": {
-      "import": "./dist/library.js",
-      "require": "./dist/library.umd.cjs"
+      "import": "./dist/backoffice-components.js",
+      "require": "./dist/backoffice-components.umd.cjs"
     }
   },
   "scripts": {

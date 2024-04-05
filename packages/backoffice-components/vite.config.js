@@ -13,8 +13,8 @@ export default defineConfig({
   build: {
     lib: {
       entry: resolve("lib/main.js"),
-      name: "library",
-      fileName: "library",
+      name: "backoffice-components",
+      fileName: "backoffice-components",
     },
     rollupOptions: {
       external: ["react", "react-dom"],

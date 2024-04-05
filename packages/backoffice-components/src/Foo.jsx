@@ -1,9 +1,7 @@
-function Foo() {
+export default function Foo() {
   return (
     <>
-      blablabla
+      blablablalblalbalblalba
     </>
   )
 }
-
-export default Foo

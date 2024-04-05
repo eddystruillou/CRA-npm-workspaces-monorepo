@@ -10,7 +10,7 @@
     "eject": "react-scripts eject"
   },
   "dependencies": {
-    "math-helpers": "*"
+    "math-helper": "*"
   },
   "eslintConfig": {
     "extends": [
