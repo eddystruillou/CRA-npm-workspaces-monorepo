@@ -1,5 +1,5 @@
 {
-  "name": "math-helpers",
+  "name": "@backoffice/math-helpers",
   "version": "0.0.1",
   "exports": {
     ".": "./src/index.js"
