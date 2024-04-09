@@ -10,7 +10,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "math-helpers": "*"
+    "@eddy/math-helpers": "*",
+    "@eddy/backoffice-components": "*"
   },
   "devDependencies": {
     "@types/react": "^18.2.66",

@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
-import { SharedButton, say } from '@backoffice/common';
 import { Typography } from 'antd';
-import { add } from 'math-helpers';
-import { Foo, DangerButton } from 'backoffice-components';
+import { SharedButton, say } from '@eddy/common';
+import { add } from '@eddy/math-helpers';
+import { Foo, DangerButton } from '@eddy/backoffice-components';
 
 const { Text } = Typography;
 

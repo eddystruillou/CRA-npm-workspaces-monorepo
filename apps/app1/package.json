@@ -10,7 +10,9 @@
     "eject": "react-scripts eject"
   },
   "dependencies": {
-    "math-helper": "*"
+    "@eddy/math-helpers": "*",
+    "@eddy/backoffice-components": "*",
+    "@eddy/common": "*"
   },
   "eslintConfig": {
     "extends": [
