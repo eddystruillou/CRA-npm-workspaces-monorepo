@@ -11,7 +11,8 @@
   },
   "dependencies": {
     "@eddy/math-helpers": "*",
-    "@eddy/backoffice-components": "*"
+    "@eddy/backoffice-components": "*",
+    "@eddy/common": "*"
   },
   "devDependencies": {
     "@types/react": "^18.2.66",

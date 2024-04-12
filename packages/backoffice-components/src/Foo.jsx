@@ -1,7 +1,7 @@
 export default function Foo() {
   return (
     <>
-      blablablalblalbalblalba
+      Basic text from backoffice-components package
     </>
   )
 }
