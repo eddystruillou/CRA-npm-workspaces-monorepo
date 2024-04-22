@@ -1,4 +1,5 @@
 name: Create Release
+run-name: Create release  ${{ inputs.version-type }} by @${{ github.actor }}
 
 on:
   push:
