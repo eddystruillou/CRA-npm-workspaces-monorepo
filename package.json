@@ -10,6 +10,7 @@
         "dev": "turbo dev"
     },
     "dependencies": {
+        "@changesets/cli": "^2.27.1",
         "@testing-library/jest-dom": "^5.17.0",
         "@testing-library/react": "^13.4.0",
         "@testing-library/user-event": "^13.5.0",
@@ -21,5 +22,9 @@
     },
     "devDependencies": {
         "turbo": "^1.13.2"
+    },
+    "engines": {
+        "node": "^18",
+        "npm": "^10"
     }
 }
