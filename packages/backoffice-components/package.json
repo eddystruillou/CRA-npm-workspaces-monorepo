@@ -7,6 +7,9 @@
   "files": ["dist"],
   "main": "./dist/backoffice-components.umd.cjs",
   "module": "./dist/backoffice-components.js",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "exports": {
     ".": {
       "import": "./dist/backoffice-components.js",
