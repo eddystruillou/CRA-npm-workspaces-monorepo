@@ -3,7 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import { add } from '@eddy/math-helpers'
-import { Foo, DangerButton } from '@eddy/backoffice-components'
+import { Foo, DangerButton } from '@eddystruillou/backoffice-components'
 import { SharedButton, say } from '@eddy/common';
 
 function App() {

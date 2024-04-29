@@ -10,7 +10,7 @@
     "eject": "react-scripts eject"
   },
   "dependencies": {
-    "@eddy/backoffice-components": "*",
+    "@eddystruillou/backoffice-components": "*",
     "@eddy/common": "*",
     "@eddy/math-helpers": "*",
     "serve": "^14.2.1"

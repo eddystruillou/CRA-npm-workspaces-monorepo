@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Typography } from 'antd';
 import { SharedButton, say } from '@eddy/common';
 import { add } from '@eddy/math-helpers';
-import { Foo, DangerButton } from '@eddy/backoffice-components';
+import { Foo, DangerButton } from '@eddystruillou/backoffice-components';
 
 const { Text } = Typography;
 
