@@ -29,8 +29,6 @@ jobs:
     steps:
       - name: ⬇️ Checkout project
         uses: actions/checkout@v4
-        with:
-          path: 'packages/backoffice-components'
 
       - name: 🧙‍♂️ Use node version
         uses: actions/setup-node@v4
@@ -39,6 +37,9 @@ jobs:
 
       - name: 📦 Install dependencies
         run: npm install
+
+      - name: 📁 Change directory
+      run: cd packages/backoffice-components
 
       - name: ⏫ Bump version
         run: npm version ${{ inputs.version-type }} -m "v%s"
