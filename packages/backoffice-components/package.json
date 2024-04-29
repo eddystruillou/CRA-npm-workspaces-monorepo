@@ -1,6 +1,7 @@
 {
   "name": "@eddy/backoffice-components",
   "version": "0.1.0",
+  "description": "A Vite component library for backoffice applications",
   "type": "module",
   "files": ["dist"],
   "main": "./dist/backoffice-components.umd.cjs",

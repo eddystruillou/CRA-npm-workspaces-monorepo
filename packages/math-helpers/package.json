@@ -1,6 +1,12 @@
 {
   "name": "@eddy/math-helpers",
   "version": "0.1.0",
+  "description": "A collection of math helper functions",
+  "license": "ISC",
+  "main": "dist/index.js",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "exports": {
     ".": "./src/index.js"
   }
