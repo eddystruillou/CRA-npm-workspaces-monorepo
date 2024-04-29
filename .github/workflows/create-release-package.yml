@@ -42,7 +42,7 @@ jobs:
         run: cd packages/backoffice-components
 
       - name: ⏫ Bump version
-        run: npm version ${{ inputs.version-type }} -m "v%s"
+        run: npm version ${{ inputs.version-type }}
 
       - name:  🛠️ Set version
         run: echo "VERSION=$(node -p 'require(`./package.json`).version')" >> $GITHUB_ENV
