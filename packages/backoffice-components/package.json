@@ -1,5 +1,5 @@
 {
-  "name": "@CRA-npm-workspaces-monorepo/backoffice-components",
+  "name": "@eddystruillou/backoffice-components",
   "version": "0.1.0",
   "description": "A Vite component library for backoffice applications",
   "type": "module",
