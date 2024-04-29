@@ -1,5 +1,5 @@
 name: Create Release for package
-run-name: Create release for package  ${{ inputs.version-type }} by @${{ github.actor }}
+run-name: Create release for package ${{ inputs.version-type }} by @${{ github.actor }}
 
 on:
   workflow_dispatch:
@@ -39,7 +39,7 @@ jobs:
         run: npm install
 
       - name: 📁 Change directory
-      run: cd packages/backoffice-components
+        run: cd packages/backoffice-components
 
       - name: ⏫ Bump version
         run: npm version ${{ inputs.version-type }} -m "v%s"
