@@ -47,6 +47,9 @@ jobs:
 
       - name: 📁 Change directory
         run: cd packages/backoffice-components
+        
+      - name: display files & folder
+        run: ls
 
       - name: ⏫ Bump version
         run: npm version ${{ inputs.version-type }}
