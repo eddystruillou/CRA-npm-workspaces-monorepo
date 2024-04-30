@@ -29,6 +29,8 @@ jobs:
     steps:
       - name: ⬇️ Checkout project
         uses: actions/checkout@v4
+        with:
+          token: ${{ github.token }}
 
       - name: 🧙‍♂️ Use node version
         uses: actions/setup-node@v4
@@ -42,7 +44,10 @@ jobs:
         run: cd packages/backoffice-components
 
       - name: ⏫ Bump version
-        run: npm version ${{ inputs.version-type }}
+        run: npm version ${{ inputs.version-type }}"
+
+      - name:  🛠️ Set version
+        run: echo "VERSION=$(node -p 'require(`./package.json`).version')" >> $GITHUB_ENV
 
       - name: 📦 Build package
         run: npm run build
