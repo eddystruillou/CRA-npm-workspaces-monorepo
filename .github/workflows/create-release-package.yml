@@ -37,6 +37,11 @@ jobs:
         with:
           node-version: 20.x
 
+      - name: 🛠️ Configure Git
+        run: |
+          git config user.email "eddy.s25@hotmail.fr"
+          git config user.name "eddystruillou"
+
       - name: 📦 Install dependencies
         run: npm install
 
